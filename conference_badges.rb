@@ -11,11 +11,11 @@ def batch_badge_creator(names)
   return badges
 end
 
-# def assign_rooms(speakers){
-#   assignments = Array.new
+def assign_rooms(speakers){
+  assignments = Array.new
   
-#   speakers.each_with_index { |speaker, index|
+  speakers.each_with_index { |speaker, index|
   
-#   assignments.push("Hello, #{speaker}! You'll be assigned to room #{index}!")
-#     }
-# end
+  assignments.push("Hello, #{speaker}! You'll be assigned to room #{index}!")
+    }
+end
