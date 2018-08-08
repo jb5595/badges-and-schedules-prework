@@ -7,4 +7,6 @@ def assign_rooms(speakers){
   assignments = Array.new
   
   speakers.each_with_index { |speaker, index|
+  
+  assignments.push("Hello, #{speaker}! You'll be assigned to room #{index}!")
 }
