@@ -4,7 +4,7 @@ def badge_maker(name)
 end 
 
 def assign_rooms(speakers){
-  assignments = Array.new
+  assignments = []
   
   speakers.each_with_index { |speaker, index|
   
