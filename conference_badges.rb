@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(names){
   badges = Array.new
-  names.each
+  names.each do
 }
 
 # def assign_rooms(speakers){
