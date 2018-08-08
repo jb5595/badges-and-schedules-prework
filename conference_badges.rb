@@ -10,3 +10,4 @@ def assign_rooms(speakers){
   
   assignments.push("Hello, #{speaker}! You'll be assigned to room #{index}!")
 }
+end
